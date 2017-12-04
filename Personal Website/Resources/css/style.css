@@ -182,20 +182,19 @@ header {
     height: auto;
     width: 100%;
     border-radius: 14px;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin: 10px 0 15px 0;
 }
 .box2 img {
     height: auto;
     width: 100%;
     border-radius: 50%;
-    margin-top: 10px;
-    margin-bottom: 35px;
+    margin: 10px 0 35px 0;
 }
 .box p,
 .box2 p {
     font-size: 90%;
     line-height: 140%;
+    margin-bottom: 35px;
 }
 /*Influences*/
 .section-influences {
