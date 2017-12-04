@@ -28,7 +28,6 @@ $(document).ready(function() {
         var nav = $('.js--main-nav');
         var icon = $('.js--nav-icon i');
         nav.slideToggle(200);
-
         if (icon.hasClass('ion-navicon-round')) {
             icon.addClass('ion-close-round');
             icon.removeClass('ion-navicon-round');
@@ -37,5 +36,4 @@ $(document).ready(function() {
             icon.addClass('ion-navicon-round');
         }
     });
-
 });
